@@ -12,7 +12,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-Edit `generate_page.py` to set your `SPREADSHEET_CSV_URL` and the column names listed in `PROJECT_COLUMNS`.
+Edit `generate_page.py` if you need to change the `SPREADSHEET_ID` or the
+column names listed in `PROJECT_COLUMNS`.
 
 Run the script:
 

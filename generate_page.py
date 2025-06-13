@@ -2,7 +2,10 @@ import pandas as pd
 import plotly.express as px
 import plotly.offline as pyo
 
-SPREADSHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/YOUR_SPREADSHEET_ID/export?format=csv"
+SPREADSHEET_ID = "1oWu5j9FzCiT2P9a32iw5qplwO0MbVstYUuptodBU4zw/"
+SPREADSHEET_CSV_URL = (
+    f"https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}export?format=csv"
+)
 
 # Specify columns corresponding to projects in the Google Sheet
 PROJECT_COLUMNS = ["Project A", "Project B"]
