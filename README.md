@@ -22,3 +22,15 @@ python generate_page.py
 ```
 
 It will create an `output.html` file showing a line graph of the selected projects in a modern, simple page.
+
+## User API
+
+A small FastAPI app is provided in `user_api.py` to store user information in a SQLite database.
+
+Run the server:
+
+```bash
+uvicorn user_api:app --reload
+```
+
+Send a POST request to `/users` with JSON data containing `name` and `email` to add a user.
